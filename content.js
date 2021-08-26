@@ -37,13 +37,8 @@ function engineToHtml(searchEngine, query) {
 function showSEPanel() {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-    let query = null;
-    
-    if (urlParams.has('q')) {
-        query = urlParams.get('q')
-    } else if (urlParams.has('text')) {
-        query = urlParams.get('text');
-    }
+    let query = urlParams.get('q') || urlParams.get('text');
+    if (!query) return;
 
     let panel = document.createElement("div");
     panel.className = 'multisearch-panel';
