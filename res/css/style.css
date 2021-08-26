@@ -50,3 +50,20 @@ ul.se-list>li>a>img:hover, ul.se-list>li>a>img:active {
     margin-bottom: 55px;
 }
 /* end se fixes */
+
+@media (prefers-color-scheme: dark) {  
+    .multisearch-panel {  
+       background: rgb(61, 61, 61);  
+       border: 1px solid rgb(47, 47, 47);
+       box-shadow: none;
+    }
+
+    ul.se-list>li>a>img:hover, ul.se-list>li>a>img:active {
+        background-color: rgb(92, 92, 92);
+    }
+
+    html>body, div.card {
+        background: rgb(61, 61, 61);
+        color: white;  
+    }
+}
