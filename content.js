@@ -37,7 +37,7 @@ function engineToHtml(searchEngine, query) {
 function showSEPanel() {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-    const query = null;
+    let query = null;
     
     if (urlParams.has('q')) {
         query = urlParams.get('q')
