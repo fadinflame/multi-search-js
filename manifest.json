@@ -35,11 +35,7 @@
     "permissions": [
         "activeTab",
         "storage",
-        "tabs",
-        "https://yandex.ru/*",
-        "https://google.ru/*",
-        "https://duckduckgo.com/*",
-        "https://bing.com/*"
+        "tabs"
     ],
     "web_accessible_resources": [
         "icons/google.svg",
