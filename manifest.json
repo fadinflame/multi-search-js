@@ -1,6 +1,6 @@
 {
     "name": "MultiSearch",
-    "version": "0.2",
+    "version": "0.3",
     "description": "A browser extension that adds the ability to search in other search engines",
     "manifest_version": 2,
     "content_scripts": [
