@@ -1,0 +1,52 @@
+.multisearch-panel {
+    position: fixed !important;
+    border: 0;
+    border-radius: 12px;
+    padding: 5px 20px 5px !important;
+    bottom: 10px;
+    right: 20px;
+    box-shadow: 0 0 10px rgb(202, 202, 202);
+    z-index: 99999;
+    background-color: white;
+    line-height: 0;
+}
+
+ul.se-list {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 0;
+}
+
+
+ul.se-list>li {
+    display: inline;
+}
+
+ul.se-list>li>a {
+    text-decoration: none;
+}
+
+ul.se-list>li>a>img {
+    width: 32px;
+    margin: 0px 3px 0px;
+    padding: 1px;
+    border-radius: 6px;
+    transition: all .2s ease-in-out;
+}
+
+ul.se-list>li>a>img:hover, ul.se-list>li>a>img:active {
+    background-color: rgb(211, 211, 211);
+}
+
+/* se fixes */
+#mfa_root .b_ds5 {
+    margin-bottom: 30px;
+}
+
+.serp__top-right, .serp__bottom-right {
+    margin-bottom: 55px;
+}
+/* end se fixes */
