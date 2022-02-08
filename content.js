@@ -28,7 +28,7 @@ let searchEngines = [
 // convert from obj to html
 function engineToHtml(searchEngine, query) {
     return `<li>
-                <a href="${searchEngine.query + query}">
+                <a href="${encodeURI(searchEngine.query + query)}">
                     <img src="${chrome.runtime.getURL(searchEngine.logo)}" alt="${searchEngine.name}" title="${searchEngine.name}">
                 </a>
             </li>`
